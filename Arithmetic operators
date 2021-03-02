@@ -1,0 +1,26 @@
+// Using Arithmetic operators
+#include <stdio.h>
+
+int main()
+{
+int a,b, sum, product, c, diff;
+
+printf("enter a: ");
+scanf("%d",&a);
+printf("enter b: ");
+scanf("%d",&b);
+
+sum = a+b;
+printf("a+b = %d\n",sum);
+
+product = a*b; 
+printf("a*b = %d\n", product);
+
+c = a/b;
+printf("a/b = %d\n",c);
+
+diff = a-b;
+printf("a-b = %d\n",diff);
+
+return 0;
+}
